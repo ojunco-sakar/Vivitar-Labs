@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import 'colors';
+
+@font-face {
+  font-family: 'Conthrax';
+  src: url("fonts/ConthraxSb-Regular.eot");
+  src: url("fonts/ConthraxSb-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/ConthraxSb-Regular.woff") format("woff"), url("fonts/ConthraxSb-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arial-Rounded';
+  src: url("fonts/Arial-Rounded.eot");
+  src: url("fonts/Arial-Rounded.eot?#iefix") format("embedded-opentype"), url("fonts/Arial-Rounded.woff") format("woff"), url("fonts/Arial-Rounded.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+$font-primary: 'Roboto', sans-serif;
+$font-secondary: 'Arial-Rounded', sans-serif;
+$font-tertiary: 'Conthrax', monospace;
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: $font-tertiary;
+}
+
+p {
+  font-family: $font-secondary;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1;
+}
+
+ul, li, ol {
+  font-family: $font-primary;
+  margin: 0;
+  padding: 0;
+}

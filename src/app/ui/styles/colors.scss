@@ -1,0 +1,27 @@
+$color-dark: #222200;
+$color-white: #FFFFFF;
+$color-primary: #0077C8;
+$color-secondary: #FFD700;
+$color-tertiary: #E40046;
+
+.color {
+  &--primary {
+    color: $color-primary;
+  }
+
+  &--dark {
+    color: $color-dark;
+  }
+
+  &--white {
+    color: $color-white;
+  }
+
+  &--secondary {
+    color: $color-secondary;
+  }
+
+  &--tertiary {
+    color: $color-tertiary;
+  }
+}

@@ -1,0 +1,13 @@
+@import 'src/app/ui/styles/colors';
+
+h1 {
+    color: $color-primary;
+}
+
+p {
+    color: $color-secondary;
+}
+
+li {
+    color: $color-tertiary;
+}
